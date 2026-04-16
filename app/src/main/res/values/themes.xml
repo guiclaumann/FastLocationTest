@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FastLocationTest" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Cores principais em Azul -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/secondary</item>
+        <item name="colorOnPrimaryContainer">@color/textPrimary</item>
+
+        <!-- Cores secundárias e acentos -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Fundo e Superfície -->
+        <item name="android:windowBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/textPrimary</item>
+
+        <!-- Status Bar e Navegação -->
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/background</item>
+
+        <!-- Forçar azul no cursor e seleção de texto -->
+        <item name="colorControlActivated">@color/primary</item>
+        <item name="colorControlHighlight">@color/secondary</item>
+    </style>
+
+    <style name="Theme.FastLocationTest" parent="Base.Theme.FastLocationTest" />
+</resources>
